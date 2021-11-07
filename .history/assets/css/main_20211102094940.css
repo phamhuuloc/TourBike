@@ -1,0 +1,43 @@
+@font-face {
+  font-family: MyriadProCondensed;
+  src: url(../fonts/MyriadProCondensed/MyriadProCondensed.ttf);
+}
+@font-face {
+  font-family: BerlinSansFBDemiBold;
+  src: url(../fonts/BerlinSansFBDemiBold/BerlinSansFBDemiBold.ttf);
+}
+:root {
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+  --text-color: #bbbb;
+  --text-white: #fff;
+
+  --header-height: 144px;
+  --header-padding: 93px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  font-size: 65%;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}
+body {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-family: MyriadProCondensed, sans-serif;
+  overflow-x: hidden;
+}
